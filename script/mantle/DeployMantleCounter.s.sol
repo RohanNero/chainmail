@@ -38,6 +38,7 @@ contract DeployMantleCounter is Script {
         storeDeploymentAddress();
     }
 
+    /**@notice Stores the deployed contract address into a JSON file. */
     function storeDeploymentAddress() public {
         /* Path to the JSON file where the deployed MantleCounter addresses are stored */
         string memory path = "deployments/mantle.json";

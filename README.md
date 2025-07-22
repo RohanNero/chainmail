@@ -6,7 +6,8 @@ Minimal interactions between smart contracts deployed on Ethereum Mainnet and va
 
 Overview from Mantle's [documentation](https://docs.mantle.xyz/network):
 
-    "combines an optimistic rollup with various innovative data availability solutions, providing cheaper and more accessible data availability while inheriting the security of Ethereum"
+    "combines an optimistic rollup with various innovative data availability solutions, 
+    providing cheaper and more accessible data availability while inheriting the security of Ethereum"
 
 Mantle has a [markdown guide](https://github.com/mantlenetworkio/mantle-tutorial/tree/main/cross-dom-comm#communication-between-contracts-on-l1-and-l2) explaining how to send data using their bridge both [offchain in JavaScript](https://github.com/mantlenetworkio/mantle-tutorial/tree/main/cross-dom-comm#seeing-it-in-action) and [onchain in Solidity](https://github.com/mantlenetworkio/mantle-tutorial/tree/main/cross-dom-comm#how-its-done-in-solidity).
 
